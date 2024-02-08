@@ -1,0 +1,83 @@
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,0,0);
+    box-shadow: 0 0 25px rgb(225,255,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255,255,255),
+                0 0 25px rgb(255,255,255),
+                0 0 50px rgb(255,255,255),
+                0 0 100px rgb(255,255,255);
+  }
+
+
+.form-container {
+    background-color: black; /* Fond noir de la div */
+    padding: 20px;
+    border-radius: 10px; /* Arrondi les coins de la div */
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fond noir */
+    color: white; /* Texte blanc */
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #333; /* Fond du bouton */
+    color: white; /* Texte du bouton en blanc */
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #555; /* Couleur de survol du bouton */
+}
+
+.form-container input  {
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 1em;
+    background-color: #e1e2e3;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .form-container input:focus {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+  }

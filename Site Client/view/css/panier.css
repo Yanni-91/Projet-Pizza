@@ -1,0 +1,68 @@
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #f8cb4f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0aa32;
+}
+
+.passerCommande{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.panier-container{
+       display: flex;
+       flex-direction: column; 
+}
+
+.btnPasserCommande,
+.affichageMontant {
+   margin: 5px; /* Ajoute une marge entre les éléments pour l'espace */
+    font-size: 16px; /* Augmente la taille de la police */
+}
+
+.btnPasserCommande button {
+    font-size: 18px; /* Augmente la taille du bouton */
+}

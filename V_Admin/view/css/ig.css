@@ -1,0 +1,56 @@
+.dispIG {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fond noir pour tout le corps */
+    color: white; /* Texte blanc pour tout le corps */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.dispIG table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dispIG th, .dispIG td {
+    border: 1px solid white; /* Bordure blanche pour les cellules */
+    padding: 10px;
+}
+
+.dispIG button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-top: 20px;
+}
+
+.dispIG button:hover {
+    box-shadow: 0 0 5px rgb(255,255,255),
+    0 0 25px rgb(255,255,255),
+    0 0 50px rgb(255,255,255),
+    0 0 100px rgb(255,255,255);
+}
+
+  
+.dispIG button{
+    background: rgb(0,0,0);
+    box-shadow: 0 0 25px rgb(225,255,255);
+  }
+  
+  
+ 
+  

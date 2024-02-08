@@ -1,0 +1,25 @@
+
+
+
+.conteneur {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pizzaDuMoment {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.divDroite {
+    width: 48%;
+    background-color: #fff2c6;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+
+.pizza {
+    padding: 10px;
+    margin-bottom: 10px;
+}

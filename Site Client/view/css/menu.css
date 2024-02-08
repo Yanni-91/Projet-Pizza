@@ -1,0 +1,162 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2c6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8cb4f; /* Ajustez la hauteur de la nav en modifiant cette valeur */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 40px; /* Ajoutez du padding-top à tous les liens */
+    
+    /* Utilisez la police 'Pacifico' */
+    font-family: 'Passion One', sans-serif;
+    font-size: 25px; 
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category {
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.PUB button {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    transform: translate(-10%, -10%);
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.PUB button:hover {
+    letter-spacing: 3px;
+    background-color: #f8cb4f;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 249, 158) 0px 7px 29px 0px;
+}
+
+.PUB button:active {
+    letter-spacing: 3px;
+    background-color: #f8cb4f;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 249, 158) 0px 7px 29px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
+}
+
+.imageEM {
+    width: 600px; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Laissez la hauteur s'ajuster automatiquement pour maintenir les proportions */
+}
+
+.pizza-imageEM
+{
+    width: 100%; /* Assure que l'image remplit la largeur du conteneur */
+    height: 300px; /* Laissez la hauteur s'ajuster automatiquement pour maintenir les proportions */
+    margin-bottom: 10px; 
+    padding-top: 11px;
+}
+
+.conteneur {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.imageEM {
+    width: 600px;
+    height: 300px;
+}
+
+.pizza {
+    position: absolute;
+    top: 50%; /* Ajustez la position verticale selon vos besoins */
+    left: 65%; /* Ajustez la position horizontale selon vos besoins */
+    transform: translate(-50%, -50%);
+    color: white; /* Ajoutez la couleur du texte pour contraster avec l'image */
+    text-align: center;
+}
+
+
+
+.dropdown {
+    padding-top: 40px;
+}
+/* Add this style for the dropdown */
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8cb4f;
+    box-shadow: 0 8px 16px rgb(255, 255, 255);
+    z-index: 1;
+    /* Set width to control the column display */
+    width: 200px;
+}
+
+nav .dropdown-content a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #ffffff; /* Change the text color as needed */
+}
+
+nav .dropdown-content a:hover {
+    background-color: #f0e05b; /* Change the background color on hover */
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}

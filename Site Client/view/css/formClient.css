@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    margin:50px auto 0px auto;
+    border:solid 1px grey;
+    padding:20px 10px;
+}
+
+form div {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.btnValider {
+    display: flex;
+    justify-content: center; /* Center the button within the div */
+    padding: 10px; 
+}
+
+.btnValider input[type="submit"]:active {
+    letter-spacing: 3px;
+    background-color: #f8cb4f;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 249, 158) 0px 7px 29px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
+}

@@ -1,0 +1,116 @@
+.pizza-card,
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.pizza-card {
+    width: 250px;
+    text-align: center;
+    background: #f9e69f;
+    border-radius: 20px;
+}
+
+
+.card {
+    width: 190px;
+    height: 254px;
+    padding: .8em;
+    background: #f9e69f;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-img,
+.pizza-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #ffcaa6;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.pizza-description {
+    margin-top: 20px;
+    text-align: left;
+    padding-top: 10%;
+}
+
+.pizza-description {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.price-and-button,
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    gap: 15px;
+}
+
+.pizza-price,
+.text-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.add-to-cart-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.info-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #3498db;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pizza-nom {
+    font-weight: bold;
+}
+
+.card-img:hover,
+.pizza-image:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover,
+.add-to-cart-button:hover {
+    border: 1px solid #ffcaa6;
+    background-color: #ffcaa6;
+}
+
+.pizza-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

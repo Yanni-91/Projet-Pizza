@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="view/css/menu.css">
+  
+    <style>
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+        }
+
+        .card {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 300px; /* Set a specific width for the images */
+            height: 200px; /* Set a specific height for the images */
+            object-fit: cover;
+            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+    </style>
+    <title>HeyPizza(admin)</title>
+</head>
+<body>
+    <header>
+        <h1>HeyPizza(admin)</h1>
+    </header>
+
+    <div class="menu">
+        <div class="card">
+            <a href="routeur.php?action=displayStats">
+                <img src="view/img/6.png" alt="Stats Image">
+                <div class="card__content">
+                    <p class="card__title">Stats</p>
+                    <p class="card__description">Consulter ici vos statistiques</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="routeur.php?action=displayPizzaEnAvant">
+                <img src="view/img/7.png" alt="Pizza En Avant Image">
+                <div class="card__content">
+                    <p class="card__title">Mettre pizza en avant</p>
+                    <p class="card__description">Permet de mettre une pizza en avant sur le site</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="routeur.php?action=displayGereStock">
+                <img src="view/img/3.png" alt="Gere Stock Image">
+                <div class="card__content">
+                    <p class="card__title">Gerer Stock</p>
+                    <p class="card__description">Gestion du stock Produit/Ingrédient</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="routeur.php?action=displayAlerte">
+                <img src="view/img/4.png" alt="Gerer Alerte Image">
+                <div class="card__content">
+                    <p class="card__title">Gerer Alerte</p>
+                    <p class="card__description">Gérer vos alertes ici</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="routeur.php?action=displayAjouterPizza">
+                <img src="view/img/5.png" alt="Ajouter Pizza Image">
+                <div class="card__content">
+                    <p class="card__title">Ajouter Pizza</p>
+                    <p class="card__description">Ajouter une pizza à la pizzeria</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
